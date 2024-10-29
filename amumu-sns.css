@@ -1,0 +1,95 @@
+
+
+/* SNS css */
+
+#snswrap{clear:both; width:100%; color:#1c1c1d; font-size:13px; padding:20px 0; border-top:1px solid #1f1f1f; border-bottom:1px solid #1f1f1f; margin:50px auto 0 auto;}
+#snswrap_main{clear:both; width:100%; color:#1c1c1d; padding:0; border-bottom:1px solid #1f1f1f; margin:0;}
+.snswrite .snschoice{overflow:hidden; margin:0 0 10px 0;}
+.snswrite .snschoice span{float:left; margin:0 4px 0 0;}
+.snswrite .snschoice .amumu-sns-logout{float:right;}
+
+.snswrite fieldset{position:relative; padding:12px 0 0 20px; margin:0 0 11px 0; border:none; background:none;}
+.snswrite fieldset .letter{position:absolute; top:-8px; right:1; font-size:12px; color:#7c7d7d;}
+.snswrite fieldset .someimg{float:left; display:inline-block; padding:2px; border:1px solid #dbdbdb; margin:0 15px 0 0; background:#fff; height:48px;}
+.snswrite fieldset .someimg img{vertical-align:top;}
+#snswrap .snswrite fieldset textarea{float:left; border:1px solid #dbdbdb; width:70%; height:47px; padding:6px 0 0 7px; margin:0 14px 0 0; color:#7d7d7d; font-size:12px; overflow: auto; resize:none;}
+.snsview .viewarea .conwrap{position:relative; float:left; width:85%; margin:0 0 1px 0; border:1px solid #dbdbdb; background:#fff;}/* 수정 */
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+	#snswrap .snswrite fieldset textarea{float:left; border:1px solid #dbdbdb; width:62%; height:47px; padding:6px 0 0 7px; margin:0 14px 0 0; color:#7d7d7d; font-size:12px; overflow: auto; resize:none;}
+	.snsview .viewarea .conwrap{position:relative; float:left; width:80%; padding:10px 0; margin:0 0 1px 0; border:1px solid #dbdbdb; background:#fff;}/* 수정 */
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#snswrap .snswrite fieldset textarea{float:left; border:1px solid #dbdbdb; width:60%; height:47px; padding:6px 0 0 7px; margin:0 14px 0 0; color:#7d7d7d; font-size:12px; overflow: auto; resize:none;}
+	.snsview .viewarea .conwrap{position:relative; float:left; width:80%; padding:10px 0; margin:0 0 1px 0; border:1px solid #dbdbdb; background:#fff;}/* 수정 */
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	#snswrap .snswrite fieldset textarea{float:left; border:1px solid #dbdbdb; width:40%; height:47px; padding:6px 0 0 7px; margin:0 14px 0 0; color:#7d7d7d; font-size:12px; overflow: auto; resize:none;}
+	.snsview .viewarea .conwrap{position:relative; float:left; width:70%; padding:10px 0; margin:0 0 1px 0; border:1px solid #dbdbdb; background:#fff;}/* 수정 */
+}
+@media only screen and (min-width: 10px) and (max-width: 319px) {
+	#snswrap .snswrite fieldset textarea{float:left; border:1px solid #dbdbdb; width:38%; height:47px; padding:6px 0 0 7px; margin:0 14px 0 0; color:#7d7d7d; font-size:12px; overflow: auto; resize:none;}
+	.snsview .viewarea .conwrap{position:relative; float:left; width:70%; padding:10px 0; margin:0 0 1px 0; border:1px solid #dbdbdb; background:#fff;}/* 수정 */
+}
+.snswrite fieldset input{float:left;}
+
+.snswrite .snsp{text-align:right; color:#a3a3a3;}
+.snswrite .snsp strong{color:#838484;}
+.snswrite .snsp span{color:#f2292e;}
+
+.snsview h3{border-bottom:1px solid #1f1f1f; padding:0 0 7px 0; margin:0 0 20px 0; font-size:12px;}
+.snsview h3 strong{color:#fe0000; margin:0 0 0 2px;}
+.snsview .viewarea{overflow:hidden; padding:0 0 0 6px; margin:0 0 15px 0;}
+.snsview .viewarea .uimg{float:left; display:inline-block; border:1px solid #dbdbdb; padding:1px; margin:0 22px 0 0; background:#fff;}
+.snsview .viewarea .uimg img{border:1px solid #dbdbdb; vertical-align:top; width: 48px; height: 48px;}
+
+/*
+.snsview .viewarea .conwrap .contop{position:relative; background:url('image/round_left_top.gif') no-repeat left top; height:10px;}
+.snsview .viewarea .conwrap .contop .topright{position:absolute; background:url('image/round_right_top.gif') no-repeat right bottom; top:0; right:0; width:10px; height:10px;}
+.snsview .viewarea .conwrap .conbottom{position:relative; background:url('image/round_right_bottom.gif') no-repeat right bottom; height:10px;}
+.snsview .viewarea .conwrap .conbottom .bottomleft{position:absolute; background:url('image/round_left_bottom.gif') no-repeat left top; top:0; left:0; width:10px; height:10px;}
+*/
+.snsview .viewarea .snscontents{position:relative; padding:0 16px 0 17px; margin:7px 0 7px 0; font-size:12px;}/* 수정 */
+.snsview .viewarea .snscontents .mark{position:absolute; top:3px; left:-13px; box-shadow:none;}
+.snsview .viewarea .snscontents .uinfo{position:relative; padding:0 0 0 0;}
+.snsview .viewarea .snscontents .uinfo img{margin-right:5px; margin-top:-3px; display:inline; vertical-align:middle;}
+.snsview .viewarea .snscontents .uinfo span{font-size:10px; color:#7c7d7d; margin:0 0 0 7px;}
+.snsview .viewarea .snscontents a{text-decoration:none; color:#7c7d7d;}
+.snsview .viewarea .snscontents .replrecom{position:absolute; top:0; right:87px;}
+.snsview .viewarea .snscontents .replrecom strong{color:#ff0000; margin:0 0 0 5px;}
+.snsview .viewarea .snscontents .replreverse strong{margin:0 0 0 5px;}
+.snsview .viewarea .snscontents .replreverse{position:absolute; top:0; right:45px;}
+.snsview .viewarea .snscontents .replreport{position:absolute; top:0; right:2px; cursor:pointer;}
+.snsview .viewarea .snscontents .replreport img{margin-right:2px; box-shadow:none;}
+.snsview .viewarea .snscontents p{font-size:12px; color:#7c7d7d; padding:10px 0 0 0; margin:0;}
+.snsview .viewarea .snscontents p a{font-family:'굴림',Gulim,'NanumGothic','돋움',Dotum,arial,sans-serif; color:#1f1f1f; background:url('image/ico_repl.gif') no-repeat left 2px; padding:0 0 0 9px; margin:0 0 0 10px;}
+
+/* amumu-sns-css*/
+button#amumu-sns-facebook-login { cursor:pointer; border: 0px; width: 88px; height: 27px; margin: 0; }
+button#amumu-sns-facebook-login.on{ background: url('image/sns01_on.gif' ); }
+button#amumu-sns-facebook-login.off{ background: url('image/sns01_off.gif' ); }
+
+button#amumu-sns-twitter-login { cursor:pointer; border: 0px; width: 88px; height: 27px; margin: 0; }
+button#amumu-sns-twitter-login.on{ background: url('image/sns02_on.gif' ); }
+button#amumu-sns-twitter-login.off{ background: url('image/sns02_off.gif' ); }
+
+button#amumu-sns-nomember-login { cursor:pointer; border: 0px; width: 88px; height: 27px; margin: 0; }
+button#amumu-sns-nomember-login.on{ background: url('image/sns03.gif' ); }
+button#amumu-sns-nomember-login.off{ background: url('image/sns03_off.gif' ); }
+
+button#amumu-sns-pic { border: 0px; width: 48px; height: 48px; }
+button#amumu-sns-pic { background: url('image/img_ssome.gif' ) left top; }
+
+button#amumu-sns-insert { cursor:pointer; border: 0px; width: 54px; height: 54px; vertical-align:top;}
+button#amumu-sns-insert { background: url('image/btn_swrite.png' ) no-repeat left top;}
+/*
+button#amumu-sns-more { cursor:pointer; border: 0px; width: 610px; height: 31px; }
+button#amumu-sns-more { background: url('image/btn_more.gif' ) left top;}
+*/
+button#amumu-sns-logout { cursor:pointer; border: 0px; width: 88px; height: 27px; display:none; margin: 0; }
+button#amumu-sns-logout { background: url('image/btn_logout.gif' ) left top;}
+
+#amumu-sns-text.warning{color:#600;}	
+#amumu-sns-text.exceeded{color:#e00;}	
+
+.btnm{border:1px solid #dbdbdb; cursor:pointer; background:url('image/bg_newmore.gif') repeat-x left top; padding:3px 0 4px 0; text-align:center;}
+.btnm img{box-shadow:none;}
